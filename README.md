@@ -12,3 +12,5 @@ https://lnguyen87.github.io/run-buddy/
 
 ## Contribution
 Made with by ❤️ Luc Nguyen
+
+### ©️2019 Run Buddy, Inc 
