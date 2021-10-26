@@ -5,12 +5,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header / Navbar Styles Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -49,6 +48,10 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* Header / Navbar Styles End */
+
+
+/* Footer Styles Start */
 footer {
     background : #fce138;
     width: 100%;
@@ -73,11 +76,14 @@ footer a {
     color: #024e76;
 }
 
+/* End Footer Styles */
+
+/* Style All Section Tags */
 section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* Hero Styles Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -86,7 +92,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
-/* Hero Style End */
 
 .hero-cta {
     width: 35%;
@@ -109,9 +114,6 @@ section {
     width: 40%;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     margin: 3.5%;
 }
 
@@ -145,7 +147,10 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/* Hero Styles End */
 
+
+/* Section Styles Start */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -164,18 +169,10 @@ section {
     border-color: #39a6b2;
 }
 
-.text-left {
-    text-align: left;
-}
+/* Section Styles End */
 
-.text-right {
-    text-align: right;
-}
 
-.flex-row {
-    display:flex;
-}
-
+/* What We Do Styles */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -184,7 +181,10 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/* What We Do Styles End */
 
+
+/* What You Do Styles Start */
 .steps {
     background-color: #fce138;
 }
@@ -200,15 +200,6 @@ section {
     justify-content: space-between;
 }
 
-.step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
-
-.step-img img {
-    max-width: 100%;
-}
-
 .step h3{
     color: #024e76;
     font-size: 46px;
@@ -220,6 +211,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
 }
 
 .step-text {
@@ -237,6 +237,10 @@ section {
     color: #024e76;
 }
 
+/* What You Do Styles End */
+
+
+/* Meet The Trainers Start */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -275,8 +279,10 @@ section {
     font-size: 17px;
 }
 
-/* REACH OUT STYLES START */
+/* Trainer Styles End */
 
+
+/* REACH OUT STYLES START */
 .contact {
     background-color: #024e76;
     text-align: center;
@@ -318,3 +324,16 @@ section {
 
 /* REACH OUT STYLES END */
 
+
+/* Utilities */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display:flex;
+}
